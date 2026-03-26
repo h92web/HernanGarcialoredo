@@ -1,0 +1,92 @@
+{
+    "personal": {
+        "nombre": "Hernán Garcialoredo",
+        "titulo": "Fullstack Developer",
+        "ubicacion": "Mar del Plata, Argentina",
+        "contacto": {
+            "email": "hernangarcialoredo1992@gmail.com",
+            "telefono": "+54 9 2233064316",
+            "linkedin": "hernangarcialoredo"
+        }
+    },
+    "perfil": "Desarrollador Fullstack con experiencia en construcción y modernización de aplicaciones web escalables en entornos de producción. Experto en React, TypeScript e integración de APIs REST, con experiencia en backend usando Node.js y Python (Django).",
+    "skills": {
+        "frontend": [
+            "React.js",
+            "TypeScript",
+            "JavaScript (ES6+)",
+            "HTML5",
+            "CSS3"
+        ],
+        "backend": [
+            "Node.js",
+            "Python (Django)",
+            "PHP",
+            "RESTful API Design"
+        ],
+        "devops": [
+            "Docker",
+            "CI/CD Pipelines",
+            "Git",
+            "Bash Scripting"
+        ],
+        "testing": [
+            "Cypress"
+        ],
+        "ai_data": [
+            "Image Classification Workflows",
+            "Data Preprocessing",
+            "Model Integration"
+        ]
+    },
+    "experiencia": [
+        {
+            "puesto": "Frontend Developer - Code Vulnerability Dashboard",
+            "empresa": "ReplaceIT",
+            "periodo": "2024",
+            "descripcion": "Desarrollo y mantenimiento de un panel de vulnerabilidades de grado de producción. Interfaces reactivas integradas con APIs de backend."
+        },
+        {
+            "puesto": "Frontend Developer - Re Bot Chat Service",
+            "empresa": "ReplaceIT",
+            "periodo": "2023-2024",
+            "descripcion": "Construcción y optimización de plataforma de chatbot pública, mejorando UI, rendimiento y accesibilidad."
+        },
+        {
+            "puesto": "Frontend Engineer - HCE & Materdei Backoffice Migration",
+            "empresa": "ReplaceIT",
+            "periodo": "2023",
+            "descripcion": "Migración de sistemas de AngularJS a React. Diseño de endpoints en Django y contenedorización con Docker."
+        },
+        {
+            "puesto": "Fullstack Developer - Suite CRM Customization",
+            "empresa": "ReplaceIT",
+            "periodo": "2022-2023",
+            "descripcion": "Extensión de funcionalidad de CRM, automatización con extensiones de Chrome y flujos en PHP."
+        },
+        {
+            "puesto": "AI Image Classification Project",
+            "empresa": "ReplaceIT",
+            "periodo": "2022-2023",
+            "descripcion": "Workflows de clasificación de imágenes con Python e integración de componentes frontend para visualización."
+        },
+        {
+            "puesto": "Frontend Developer - Agilidad a la Gorra",
+            "empresa": "ReplaceIT",
+            "periodo": "2022",
+            "descripcion": "Landing page en React optimizada para velocidad y conversión bajo plazos estrictos."
+        }
+    ],
+    "educacion": [
+        {
+            "titulo": "Educación Secundaria Completa",
+            "institucion": "Plan Fines",
+            "estado": "Completado"
+        },
+        {
+            "titulo": "B1 English Certification",
+            "institucion": "HILET",
+            "estado": "Certificado"
+        }
+    ]
+}

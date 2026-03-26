@@ -1,0 +1,64 @@
+.homeContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  width: 100%;
+  animation: fadeIn 0.8s ease-in-out;
+}
+
+.title {
+  font-size: 2.5rem;
+  color: #ffffff;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.navGrid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.5rem;
+  width: 100%;
+  max-width: 400px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 16px;
+  text-decoration: none;
+  color: #646cff;
+  transition: all 0.3s ease;
+}
+
+.card:hover {
+  background: rgba(100, 108, 255, 0.1);
+  border-color: #646cff;
+  transform: translateY(-5px);
+}
+
+.card h2 {
+  margin: 0;
+  font-size: 1.5rem;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@media (min-width: 768px) {
+  .navGrid {
+    grid-template-columns: repeat(3, 1fr);
+    max-width: 900px;
+  }
+  
+  .title {
+    font-size: 3.5rem;
+  }
+}

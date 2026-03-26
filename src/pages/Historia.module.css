@@ -1,0 +1,47 @@
+.container {
+  padding: 3rem 2rem;
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.backLink {
+  color: #9ca3af;
+  font-size: 0.9rem;
+  display: inline-block;
+  margin-bottom: 2rem;
+}
+
+.backLink:hover {
+  color: #c084fc;
+}
+
+.title {
+  font-size: 2.5rem;
+  color: #f3f4f6;
+  margin-bottom: 1rem;
+}
+
+.header {
+  display: flex;
+  justify-content: left;
+  margin-bottom: 2.5rem;
+}
+
+.profilePic {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 4px solid #1e293b;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+}
+
+.content {
+  line-height: 1.8;
+  color: #9ca3af;
+  font-size: 1.1rem;
+}
+
+.text {
+  white-space: pre-wrap;
+}

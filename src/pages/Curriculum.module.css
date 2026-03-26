@@ -1,0 +1,137 @@
+.container {
+  padding: 3rem 2rem;
+  max-width: 900px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.backLink {
+  color: #9ca3af;
+  font-size: 0.9rem;
+  transition: color 0.2s;
+}
+
+.backLink:hover {
+  color: #c084fc;
+}
+
+.header {
+  margin: 2rem 0;
+}
+
+.name {
+  font-size: 3rem;
+  color: #f3f4f6;
+  margin-bottom: 0.5rem;
+}
+
+.subtitle {
+  color: #c084fc;
+  font-weight: 500;
+}
+
+.profileText {
+  line-height: 1.8;
+  color: #9ca3af;
+}
+
+.section {
+  margin-bottom: 4rem;
+}
+
+.sectionTitle {
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #f3f4f6;
+  border-bottom: 1px solid #2e303a;
+  padding-bottom: 0.5rem;
+  margin-bottom: 2rem;
+}
+
+.skillsGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 2rem;
+}
+
+.categoryTitle {
+  font-size: 0.9rem;
+  color: #c084fc;
+  margin-bottom: 1rem;
+  text-transform: capitalize;
+}
+
+.techList {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.techTag {
+  font-size: 0.8rem;
+  padding: 0.3rem 0.7rem;
+  background: #1e293b;
+  border: 1px solid #2e303a;
+  border-radius: 4px;
+  color: #f3f4f6;
+}
+
+.item {
+  margin-bottom: 2.5rem;
+}
+
+.itemHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin-bottom: 0.3rem;
+}
+
+.itemTitle {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #f3f4f6;
+}
+
+.period {
+  font-size: 0.85rem;
+  color: #c084fc;
+}
+
+.company, .institution {
+  font-weight: 500;
+  color: #9ca3af;
+  margin-bottom: 0.5rem;
+}
+
+.description {
+  font-size: 0.95rem;
+  color: #9ca3af;
+  line-height: 1.6;
+}
+
+.contactGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+
+.contactLink {
+  color: #9ca3af;
+  text-decoration: none;
+  font-size: 0.9rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  transition: color 0.2s;
+}
+
+.contactLink span {
+  color: #c084fc;
+}
+
+.contactLink:hover {
+  color: #f3f4f6;
+}
