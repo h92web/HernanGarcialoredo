@@ -41,6 +41,12 @@
     },
     "experiencia": [
         {
+            "puesto": "Lead Fullstack Developer",
+            "empresa": "Henexix",
+            "periodo": "2025 - Presente",
+            "descripcion": "Gestión de consultoría técnica independiente enfocada en soluciones web personalizadas y herramientas de automatización. Desarrollo de landing pages con React/TS e integración de scripts para intercambio de datos."
+        },
+        {
             "puesto": "Frontend Developer - Code Vulnerability Dashboard",
             "empresa": "ReplaceIT",
             "periodo": "2024",
