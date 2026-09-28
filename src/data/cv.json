@@ -1,98 +1,149 @@
 {
-    "personal": {
-        "nombre": "Hernán Garcialoredo",
-        "titulo": "Fullstack Developer",
-        "ubicacion": "Mar del Plata, Argentina",
-        "contacto": {
-            "email": "hernangarcialoredo1992@gmail.com",
-            "telefono": "+54 9 2233064316",
-            "linkedin": "hernangarcialoredo"
-        }
-    },
-    "perfil": "Desarrollador Fullstack con experiencia en construcción y modernización de aplicaciones web escalables en entornos de producción. Experto en React, TypeScript e integración de APIs REST, con experiencia en backend usando Node.js y Python (Django).",
-    "skills": {
-        "frontend": [
-            "React.js",
-            "TypeScript",
-            "JavaScript (ES6+)",
-            "HTML5",
-            "CSS3"
-        ],
-        "backend": [
-            "Node.js",
-            "Python (Django)",
-            "PHP",
-            "RESTful API Design"
-        ],
-        "devops": [
-            "Docker",
-            "CI/CD Pipelines",
-            "Git",
-            "Bash Scripting"
-        ],
-        "testing": [
-            "Cypress"
-        ],
-        "ai_data": [
-            "Image Classification Workflows",
-            "Data Preprocessing",
-            "Model Integration"
-        ]
-    },
-    "experiencia": [
-        {
-            "puesto": "Lead Fullstack Developer",
-            "empresa": "Henexix",
-            "periodo": "2025 - Presente",
-            "descripcion": "Gestión de consultoría técnica independiente enfocada en soluciones web personalizadas y herramientas de automatización. Desarrollo de landing pages con React/TS e integración de scripts para intercambio de datos."
-        },
-        {
-            "puesto": "Frontend Developer - Code Vulnerability Dashboard",
-            "empresa": "ReplaceIT",
-            "periodo": "2024",
-            "descripcion": "Desarrollo y mantenimiento de un panel de vulnerabilidades de grado de producción. Interfaces reactivas integradas con APIs de backend."
-        },
-        {
-            "puesto": "Frontend Developer - Re Bot Chat Service",
-            "empresa": "ReplaceIT",
-            "periodo": "2023-2024",
-            "descripcion": "Construcción y optimización de plataforma de chatbot pública, mejorando UI, rendimiento y accesibilidad."
-        },
-        {
-            "puesto": "Frontend Engineer - HCE & Materdei Backoffice Migration",
-            "empresa": "ReplaceIT",
-            "periodo": "2023",
-            "descripcion": "Migración de sistemas de AngularJS a React. Diseño de endpoints en Django y contenedorización con Docker."
-        },
-        {
-            "puesto": "Fullstack Developer - Suite CRM Customization",
-            "empresa": "ReplaceIT",
-            "periodo": "2022-2023",
-            "descripcion": "Extensión de funcionalidad de CRM, automatización con extensiones de Chrome y flujos en PHP."
-        },
-        {
-            "puesto": "AI Image Classification Project",
-            "empresa": "ReplaceIT",
-            "periodo": "2022-2023",
-            "descripcion": "Workflows de clasificación de imágenes con Python e integración de componentes frontend para visualización."
-        },
-        {
-            "puesto": "Frontend Developer - Agilidad a la Gorra",
-            "empresa": "ReplaceIT",
-            "periodo": "2022",
-            "descripcion": "Landing page en React optimizada para velocidad y conversión bajo plazos estrictos."
-        }
-    ],
-    "educacion": [
-        {
-            "titulo": "Educación Secundaria Completa",
-            "institucion": "Plan Fines",
-            "estado": "Completado"
-        },
-        {
-            "titulo": "B1 English Certification",
-            "institucion": "HILET",
-            "estado": "Certificado"
-        }
+  "personal": {
+    "nombre": "Hernán Garcialoredo",
+    "titulo": "Full Stack Developer",
+    "ubicacion": "Mar del Plata, Argentina",
+    "contacto": {
+      "email": "hernangarcialoredo1992@gmail.com",
+      "telefono": "+54 9 223 306 4316",
+      "linkedin": "linkedin.com/in/hernangarcialoredo"
+    }
+  },
+  "perfil": "Full Stack Developer with experience designing, developing, and modernizing scalable web applications in production environments. Strong background in React, TypeScript, REST API integration, and backend development using Node.js, Django, and PHP. Experienced in Docker-based deployments, CI/CD workflows, AI-assisted data processing, and performance optimization. Focused on building maintainable, scalable, and high-quality software solutions while collaborating across cross-functional teams.",
+  "skills": {
+    "technical_skills": [
+      "Fullstack Development",
+      "React.js",
+      "TypeScript",
+      "JavaScript (ES6+)",
+      "Node.js",
+      "Python (Django)",
+      "PHP",
+      "REST API Development",
+      "API Integration",
+      "Docker",
+      "CI/CD",
+      "Git",
+      "Bash Scripting",
+      "Cypress",
+      "Frontend Testing",
+      "AI Workflows",
+      "Data Preprocessing",
+      "Image Classification"
     ]
+  },
+  "experiencia": [
+    {
+      "puesto": "Lead Full Stack Developer",
+      "empresa": "Henexix",
+      "modalidad": "Remote",
+      "periodo": "Feb 2025 – Present",
+      "proyectos": [
+        {
+          "nombre": "ConverTor",
+          "periodo": "May 2025 - Jul 2025",
+          "descripcion": "Web-based file conversion and processing tool running entirely in the browser.",
+          "link": "https://convertor.hernangarcialoredo1992.workers.dev/",
+          "skills": ["React", "TypeScript"]
+        },
+        {
+          "nombre": "Metrics Dashboard",
+          "periodo": "Aug 2025 - Dec 2025",
+          "descripcion": "Interactive client-adaptable panel for business metrics visualization.",
+          "skills": ["React", "TypeScript"]
+        },
+        {
+          "nombre": "Henexix Chat",
+          "periodo": "Jan 2026 - Apr 2026",
+          "descripcion": "Web messaging app demo connecting developers with recruiters.",
+          "link": "https://henexixchat-frontend.onrender.com/",
+          "skills": ["React", "Node.js", "WebSockets"]
+        },
+        {
+          "nombre": "MedicalPlant",
+          "periodo": "May 2026 - Sep 2026",
+          "descripcion": "Mobile app for plant health diagnosis and pest detection.",
+          "skills": ["React Native", "Computer Vision", "Machine Learning", "Artificial Intelligence"]
+        }
+      ]
+    },
+    {
+      "puesto": "Full Stack Developer",
+      "empresa": "ReplaceIT",
+      "modalidad": "Hybrid",
+      "periodo": "Nov 2022 – Jan 2025",
+      "proyectos": [
+        {
+          "nombre": "Code Vulnerability Dashboard",
+          "periodo": "Apr 2024 – Jan 2025",
+          "descripcion": "Backoffice for a code vulnerability platform where users configure tests, select models, and review run results with detailed solver reports. Focused on clear data presentation and fast interaction for security workflows.",
+          "skills": ["React.js", "JavaScript", "Git"]
+        },
+        {
+          "nombre": "Re Bot Chat Service",
+          "periodo": "Oct 2023 – Mar 2024",
+          "descripcion": "Public website for a chatbot service built to improve usability and accessibility. Implemented clear UI flows and performance optimizations to increase user engagement.",
+          "skills": ["Next.js", "React.js", "Git"]
+        },
+        {
+          "nombre": "HCE & Materdei Backoffice (Migration)",
+          "periodo": "Jun 2023 – Oct 2023",
+          "descripcion": "Merged and modernized legacy backoffices by migrating from AngularJS to React. Built responsive UIs, integrated with Python Django endpoints, and supported Docker image deployments for production.",
+          "skills": ["React.js", "TypeScript", "Python", "Docker"]
+        },
+        {
+          "nombre": "Suite CRM Scraper & Customization",
+          "periodo": "Nov 2022 – Jun 2023",
+          "descripcion": "Led the implementation and customization of Suite CRM, creating a Chrome scraping tool to automate data collection and extending CRM functionality with PHP to improve workflows.",
+          "skills": ["JavaScript", "PHP"]
+        },
+        {
+          "nombre": "Additional Projects (QA, Mobile & AI Support)",
+          "periodo": "Nov 2022 – Jan 2023",
+          "descripcion": "Led test strategy with Cypress and CI pipelines, built an Android chatbot client in Java, and optimized image processing pipelines for an AI classifier.",
+          "skills": ["Git", "React", "Typescript", "JavaScript", "Python"]
+        },
+        {
+          "nombre": "AALG — Landing Page",
+          "periodo": "Nov 2022 – Dec 2022",
+          "descripcion": "Fast, interactive landing page built with React to prioritize speed and conversion. Delivered a polished, responsive experience under tight deadlines.",
+          "skills": ["React.js", "JavaScript"]
+        }
+      ]
+    },
+    {
+      "puesto": "Technical Services Specialist",
+      "empresa": "Reparo Ahora",
+      "modalidad": "Fulltime",
+      "periodo": "Jan 2014 – Jun 2016",
+      "descripcion": [
+        "Performed hardware and software diagnostics, troubleshooting, and repairs for desktop PCs and laptops.",
+        "Handled installation, configuration, and maintenance of operating systems and essential software applications.",
+        "Provided direct technical support and customer service to resolve client hardware and software issues."
+      ]
+    }
+  ],
+  "educacion": [
+    {
+      "titulo": "Bachelor's Degree, Computer Engineering",
+      "institucion": "Universidad Nacional de Mar del Plata",
+      "estado": "Incompleto"
+    },
+    {
+      "titulo": "Complete Secondary Education",
+      "institucion": "",
+      "estado": "Completado"
+    }
+  ],
+  "idiomas": [
+    {
+      "idioma": "Spanish",
+      "nivel": "Native"
+    },
+    {
+      "idioma": "English",
+      "nivel": "Intermediate",
+      "certificado": "https://cert.efset.org/en/cHqG8p"
+    }
+  ]
 }
